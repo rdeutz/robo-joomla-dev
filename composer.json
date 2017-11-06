@@ -1,0 +1,14 @@
+{
+    "name": "rdeutz/robo-joomla-dev",
+    "description": "Robo Task for Joomla! development",
+    "type": "robo-tasks",
+    "autoload": {
+        "psr-4": {
+            "Rdeutz\\Robo\\Task\\JoomlaDevDrush\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "consolidation/robo": "~1"
+    }
+}
